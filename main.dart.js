@@ -15994,13 +15994,13 @@ return P.u(V.bP(),$async$mn)
 case 2:q=b
 p=q.a
 o=J.i(p)
-s=!o.W(p,"newData_xyzab")?3:4
+s=!o.W(p,"newData_xyzabc")?3:4
 break
 case 3:o.a9(p)
 s=5
 return P.u(V.rg().a9(0),$async$mn)
 case 5:case 4:s=6
-return P.u(q.aP("Bool","newData_xyzab",!0),$async$mn)
+return P.u(q.aP("Bool","newData_xyzabc",!0),$async$mn)
 case 6:n=o.W(p,"booked")&&J.d(o.h(p,"booked"),!0)&&!0
 m=o.W(p,"login")&&J.d(o.h(p,"login"),!0)&&!0
 s=!o.W(p,"badminton")?7:8
@@ -69032,7 +69032,7 @@ O.O8.prototype={
 H:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null
 if(f.x)s=T.bR(U.v2(),e,e)
 else{s=T.ar(e,50,e)
-r=L.a3("SPORTS BOARD SLOT BOOKING PORTAL",e,e,e,$.kU(),e,e,e)
+r=L.a3("NEW SPORTS BOARD SLOT BOOKING PORTAL",e,e,e,$.kU(),e,e,e)
 q=$.aQ()
 p=M.aE(e,L.a3("Terms and Conditions:\n\n1) The portal for a particular slot will open only 30 minutes prior to the slot.\n\n2) Please carry your id cards along for verification before entering the gym/court.\n\n3) Maintain proper social distancing inside the gym/court.\n\n4) Masks are compulsory\n\n5) Please show the guard the confirmation message you receive after slot confirmation.\n\n6) The confirm attendance button has to be used by gaurd at gym/court only otherwise you will loose your booking.\n\n",e,e,e,q,e,e,e),C.j,e,e,e,e,e,e,new V.V(20,20,20,20),e,e,e)
 o=L.a3("STUDENT LOGIN with IITG EMAIL",e,e,e,q,e,e,e)
@@ -69062,10 +69062,10 @@ i=$.aQ()
 i=E.hW(T.bS(H.b([s,r,p,m,k,o,q,j,n,l,L.a3("Developed By:",e,e,e,i,e,e,e),M.aE(e,e,C.j,e,e,new S.ca(e,new X.Fl(new L.uH("assets/logo_sportsboard.jpg")),e,e,e,e,C.J),e,100,e,e,e,e,100),L.a3("Sports Board, IIT Guwahati",e,e,e,i,e,e,e),T.ar(e,20,e)],t.Y),C.t,C.A,C.q),C.l)
 s=i}return M.o5(e,s)}}
 O.adQ.prototype={
-$0:function(){var s=0,r=P.K(t.P),q=this,p,o,n,m,l,k,j,i,h
+$0:function(){var s=0,r=P.K(t.P),q=this,p,o,n,m,l,k,j,i
 var $async$$0=P.G(function(a,b){if(a===1)return P.H(b,r)
-while(true)switch(s){case 0:h=q.a
-h.a1(new O.adO(h))
+while(true)switch(s){case 0:i=q.a
+i.a1(new O.adO(i))
 p=t.z
 o=V.cE(new O.adP(),null,p)
 s=2
@@ -69073,7 +69073,7 @@ return P.u(K.bw(q.b,!1).cK(0,o),$async$$0)
 case 2:n=b
 s=n==null?3:5
 break
-case 3:h.a1(new O.adG(h))
+case 3:i.a1(new O.adG(i))
 E.d0("Credentials not given")
 s=4
 break
@@ -69083,8 +69083,8 @@ break
 case 6:s=8
 return P.u(V.bP(),$async$$0)
 case 8:m=b
-h.y=o.h(n,"mail")
-h.z=o.h(n,"surname")
+i.y=o.h(n,"mail")
+i.z=o.h(n,"surname")
 m.aP("String","name",o.h(n,"displayName"))
 m.aP("String","roll",o.h(n,"surname")==null?o.h(n,"mail"):o.h(n,"surname"))
 m.aP("String","email",o.h(n,"mail"))
@@ -69096,10 +69096,9 @@ m.aP("String","uid",j.geh(j).a.c.h(0,"uid"))
 l=K.c4().bT(0,"[DEFAULT]")
 E.b0(l,k)
 k=O.e2(new K.bv(l))
-i=h.d
 s=9
-return P.u(O.e8(k,k.gdG().cY(0,"sportsBoardUsers")).bB(0,i.geh(i).a.c.h(0,"uid")).kP(0,P.ac(["name",o.h(n,"displayName"),"roll",o.h(n,"surname"),"email",o.h(n,"mail"),"entered_mail",o.h(n,"entered_mail"),"entered_name",o.h(n,"entered_name")],t.Q,p)),$async$$0)
-case 9:h.a1(new O.adH(h))
+return P.u(O.e8(k,k.gdG().cY(0,"sportsBoardUsers")).bB(0,j.geh(j).a.c.h(0,"uid")).kP(0,P.ac(["name",o.h(n,"displayName"),"roll",o.h(n,"surname"),"email",o.h(n,"mail"),"entered_mail",o.h(n,"entered_mail"),"entered_name",o.h(n,"entered_name")],t.Q,p)),$async$$0)
+case 9:i.a1(new O.adH(i))
 case 7:case 4:return P.I(null,r)}})
 return P.J($async$$0,r)},
 $S:4}
