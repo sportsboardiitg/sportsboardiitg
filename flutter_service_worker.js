@@ -8,17 +8,17 @@ const RESOURCES = {
 "assets/assets/logo_sportsboard.jpg": "38b72d461c184a155d19357abea6825d",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "a3cc6a2e7875b6681fa7a8666f3f7670",
+"assets/NOTICES": "3583016e6c3be93c730b62fb509a9f85",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
 "assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
 "assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"favicon.ico": "7fb3d30e30fd9ba198f4a64237a2e0bd",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "4b30ae61f97a0dcee8b441a8e558707b",
-"/": "4b30ae61f97a0dcee8b441a8e558707b",
-"main.dart.js": "0eb74d8c01442c6fd2b463dcacf312e2",
-"manifest.json": "7cf808f1eee853e6c6aac25e7c543a6e",
+"index.html": "2edbb7fbaac7ae3453e2677138af01ff",
+"/": "2edbb7fbaac7ae3453e2677138af01ff",
+"main.dart.js": "b25753c4972c1fb216276588ecafd865",
+"manifest.json": "79aa0533430b3fe573a1e2e404dbbdd7",
 "version.json": "2fd6b91cb2c6e8aa66ea32515093cb46"
 };
 
